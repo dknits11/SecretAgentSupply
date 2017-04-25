@@ -1,4 +1,144 @@
 /* General stylying */
+html {
+  font-size: 18px;
+}
+
 body {
   background-color: black;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+  }
+
+  div {
+    display: block;
+  }
+
+/* Header styling */
+header .container {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  padding: 0.66rem 0rem;
+}
+
+#logo {
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+#logo img {
+  height: 1.5rem;
+}
+
+/* Featured styling */
+.featured {
+  background: url("../images/moto.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+}
+
+.new-arrival {
+  background-color: black;
+  width: 20rem;
+  height: 10rem;
+  margin-top: 9rem;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+
+#featured-container {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-arrival span {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.new-arrival h2 {
+  font-size: 2rem;
+}
+
+/* Nav Menu styling */
+.Navbar {
+  width: 100%;
+  background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.menu nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  color: white;
+}
+
+/* Main Content styling */
+.content {
+  background-color: white;
+}
+
+.images {
+  margin: 3rem 0;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.products {
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.products img {
+  height: 9rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products p {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.info-header {
+  width: 35%;
+  padding-left: 2rem;
+}
+
+.info-header span {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
+
+.info-header p {
+    margin-bottom: 4rem;
 }
