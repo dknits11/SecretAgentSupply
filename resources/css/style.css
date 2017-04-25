@@ -17,6 +17,37 @@ div {
     display: block;
   }
 
+/* Resizing Media Queries */
+/* Tablet Size*/
+@media only screen and (max-width: 1024px) {
+  .featured {
+    font-size: 16px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+  .products {
+    width: 47%;
+  }
+
+  .container {
+    width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .mobile-menu  {
+    display: none;
+  }
+}
+
 /* Header styling */
 header .container {
   display: flex;
@@ -72,6 +103,7 @@ header .container {
   background-color: firebrick;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  color: white;
 }
 
 .menu nav {
@@ -79,8 +111,8 @@ header .container {
   justify-content: space-between;
 }
 
-nav {
-  color: white;
+.mobile-menu {
+  text-align: center;
 }
 
 /* Main Content styling */
