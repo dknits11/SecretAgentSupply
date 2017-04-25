@@ -13,7 +13,7 @@ body {
   margin: 0px auto;
   }
 
-  div {
+div {
     display: block;
   }
 
@@ -39,26 +39,22 @@ header .container {
 .featured {
   background: url("../images/moto.jpeg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 25rem;
-  display: flex;
 }
 
 .new-arrival {
   background-color: black;
   width: 20rem;
-  height: 10rem;
-  margin-top: 9rem;
+  top: 9rem;
   color: white;
-  display: block;
   font-weight: bold;
-}
-
-#featured-container {
-  padding-top: 2rem;
-  padding-left: 3rem;
+  position: relative;
+  padding: 2rem 3rem;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .new-arrival span {
@@ -141,4 +137,11 @@ nav {
 
 .info-header p {
     margin-bottom: 4rem;
+}
+
+/* Footer styling */
+footer {
+  color: white;
+  text-align: left;
+  padding: 5rem;
 }
