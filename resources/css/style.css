@@ -17,36 +17,7 @@ div {
     display: block;
   }
 
-/* Resizing Media Queries */
-/* Tablet Size*/
-@media only screen and (max-width: 1024px) {
-  .featured {
-    font-size: 16px;
-  }
 
-  .menu {
-    display: none;
-  }
-
-  .images {
-    width: 100%;
-  }
-
-  .products {
-    width: 47%;
-  }
-
-  .container {
-    width: 100%;
-    }
-
-}
-
-@media only screen and (min-width: 1025px) {
-  .mobile-menu  {
-    display: none;
-  }
-}
 
 /* Header styling */
 header .container {
@@ -176,4 +147,90 @@ footer {
   color: white;
   text-align: left;
   padding: 5rem;
+}
+
+/* Resizing Media Queries */
+/* Tablet Size*/
+@media only screen and (max-width: 1024px) {
+  .featured {
+    font-size: 16px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .images {
+    width: 100%
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .products {
+    width: 47%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .mobile-menu  {
+    display: none;
+  }
+}
+
+/* Phone Size*/
+@media only screen and (max-width: 470px) {
+  .new-arrival {
+    top: 10rem;
+    position: relative;
+    padding: 1rem 2rem;
+    width: auto;
+  }
+
+  .featured {
+    height: 15rem;
+  }
+
+  .new-arrival span {
+    font-size: .77rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    padding-top: 1rem;
+  }
+
+  .new-arrival h2 {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+  }
+
+.content.container {
+  width: 90%;
+}
+
+  .images {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .pen {
+    display: flex;
+  }
+
+  .info-container {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .info-header {
+    width: 100%;
+  }
+
+  footer {
+    padding: 4rem 2rem;
+  }
 }
